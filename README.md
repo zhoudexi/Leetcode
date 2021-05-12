@@ -1,3 +1,2 @@
 # Leetcode
 LeetCode Solutions
-test
