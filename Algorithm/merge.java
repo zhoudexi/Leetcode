@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
          int index1 = m - 1;int index2 = n - 1;int indexmax = m + n - 1;
@@ -16,9 +15,13 @@ class Solution {
                 nums1[indexmax--] = nums2[index2--];
          }
     }
+
+    public String reverseVowels1(String s) {
+        return null;
+    }
 }
 
-public class App {
+public class merge {
     public static int[] stringToIntegerArray(String input) {
         input = input.trim();
         input = input.substring(1, input.length() - 1);
