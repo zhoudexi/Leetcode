@@ -22,7 +22,7 @@ class Solution {
 }
 
 public class merge {
-    public static int[] stringToIntegerArray(String input) {
+    public static int[] stringToIntegerArray(String input) {    
         input = input.trim();
         input = input.substring(1, input.length() - 1);
         if (input.length() == 0) {
