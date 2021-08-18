@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch numSquares",
+            "request": "launch",
+            "mainClass": "numSquares"
+        },
+        {
+            "type": "java",
             "name": "Launch hasCycle",
             "request": "launch",
             "mainClass": "hasCycle"
