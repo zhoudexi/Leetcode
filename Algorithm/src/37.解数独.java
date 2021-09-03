@@ -30,11 +30,15 @@ class Solution {
     }
 
     private void backtracking(int i, int j) {
-        while(i < 9 && board[][])
+        while(i < 9 && board[i][j] != '.'){
+            
+        }
     }
 
     private int cubeNum(int i, int j) {
-        return null;
+        int r = i / 3;
+        int c = i / 3;
+        return r * 3 + c;
     }
 }
 // @lc code=end
