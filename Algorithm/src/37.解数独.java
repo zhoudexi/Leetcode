@@ -9,7 +9,7 @@ public void solveSudoku(char[][] board) {
         for (int j = 0; j < 9; j++) {
             if (board[i][j] == '.') {
                 continue;
-            }
+            }           
             int num = board[i][j] - '0';
             rowsUsed[i][num] = true;
             colsUsed[j][num] = true;
