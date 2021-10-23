@@ -5,6 +5,12 @@
 package ____Offer_53___II________LCOF;
 public class Solution {
     public int missingNumber(int[] nums) {
-        return 0;
+        int l = 0, r = nums.length - 1;
+        while(l <= r){
+            int m = (l + r) / 2;
+            if(nums[m] == m) l = m + 1;
+            else r = m - 1;
+        }
+        return l;
     }
 }
