@@ -17,6 +17,7 @@
  */
 class Solution {
     public ListNode[] splitListToParts(ListNode head, int k) {
+        
         return null;
     }
 }
