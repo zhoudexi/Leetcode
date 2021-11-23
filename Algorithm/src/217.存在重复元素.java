@@ -14,7 +14,7 @@ class Solution {
         for (int i : nums) {
             set.add(i);
         }
-        return set.size() < nums.length;
+        return set.size() < nums.length;    
     }
 }
 // @lc code=end
