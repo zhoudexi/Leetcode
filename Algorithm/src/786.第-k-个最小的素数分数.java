@@ -12,7 +12,7 @@ class Solution {
     public int[] kthSmallestPrimeFraction(int[] _arr, int k) {
         arr = _arr;
         n = arr.length;
-        double l = 0, r = 1;
+        double l = 0, r = 1;        
         while (r - l > eps) {
             double mid = (l + r) / 2;
             if (check(mid) >= k) r = mid;
