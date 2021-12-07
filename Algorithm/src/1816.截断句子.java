@@ -6,7 +6,7 @@
 
 // @lc code=start
 class Solution {
-    public String truncateSentence(String s, int k) {
+    public String truncateSentence(String s, int k) {   
         StringBuilder sb = new StringBuilder();
         int n = s.length();
         for (int i = 0, cnt = 0; i < n && cnt < k; i++) {
