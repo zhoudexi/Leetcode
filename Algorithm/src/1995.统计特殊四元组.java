@@ -15,7 +15,7 @@ class Solution {
                 cnt.put(nums[d] - nums[b + 1], cnt.getOrDefault(nums[d] - nums[b + 1], 0) + 1);
             }
             for (int a = 0; a < b; ++a) {
-                ans += cnt.getOrDefault(nums[a] + nums[b], 0);
+                ans += cnt.getOrDefault(nums[a] + nums[b], 0);  
             }
         }
         return ans;
