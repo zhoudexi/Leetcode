@@ -25,6 +25,7 @@ class Solution {
             if (nums[i] > leftMin[i - 1] && nums[i] < rightMax[i + 1]) {
                 return true;
             }
+            
         }
         return false;
     }
