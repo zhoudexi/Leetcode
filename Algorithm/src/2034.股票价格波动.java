@@ -30,6 +30,7 @@ class StockPrice {
     }
     
     public int minimum() {
+        
         return ts.firstKey();
     }
 }
