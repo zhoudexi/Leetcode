@@ -20,7 +20,7 @@ class Solution {
         }
         return String.valueOf(cs);
     }
-    
 }
+
 // @lc code=end
 
