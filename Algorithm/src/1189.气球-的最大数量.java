@@ -7,7 +7,7 @@
 // @lc code=start
 class Solution {
     public int maxNumberOfBalloons(String text) {
-        int[] cnt = new 
+        int[] cnt = new int[5];
         for (int i = 0; i < text.; i++) {
             
         }
