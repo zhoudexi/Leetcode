@@ -7,6 +7,9 @@
 // @lc code=start
 class Solution {
     public String convertToBase7(int num) {
+        if(num == 0){
+            return "0";
+        }
         boolean b = num < 0;
         num = Math.abs(num);
         StringBuffer s = new StringBuffer();
