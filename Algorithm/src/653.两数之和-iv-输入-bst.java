@@ -44,5 +44,6 @@ class Solution {
         inOrder(root.right, num);
     }
 }
+
 // @lc code=end
 
