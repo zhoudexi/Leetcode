@@ -10,7 +10,7 @@ class Solution {
         char[] c = colors.toCharArray();
         int n = colors.length();
         int a = 0, b = 0;
-        for(int i = 0; i < n - 1; i++){
+        for(int i = 1; i < n - 1; i++){
             if(c[i] == 'A' && c[i - 1] == 'A' && c[i + 1] == 'A') a++;
             if(c[i] == 'B' && c[i - 1] == 'B' && c[i + 1] == 'B') b++;
         }
