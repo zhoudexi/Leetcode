@@ -47,6 +47,7 @@ class Solution {
                     int t = Math.min(cnts[i] * (i + 1), cur);
                     cur -= t; tot -= t / (i + 1);
                 }
+                
             }
             return base + Math.max(tot, 3 - m);
         }
