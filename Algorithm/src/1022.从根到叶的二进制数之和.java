@@ -31,5 +31,6 @@ class Solution {
         return root.left == null && root.right == null ? ncur : ans;
     }
 }
+
 // @lc code=end
 
